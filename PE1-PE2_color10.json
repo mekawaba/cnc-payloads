@@ -1,0 +1,46 @@
+{
+    "cisco-sr-te-cfp:sr-te": {
+      "cisco-sr-te-cfp-sr-policies:policies": {
+        "policy": [
+          {
+            "name": "PE1-PE2_color10",
+            "head-end": [
+              {
+                "name": "C8711-1-PE"
+              }
+            ],
+            "srv6": {
+              "locator": {
+                "locator-name": "srv6",
+                "behavior": "ub6-insert-reduced",
+                "binding-sid-type": "srv6-dynamic"
+              }
+            },
+            "tail-end": "2001:db8::2",
+            "color": 10,
+            "path": [
+              {
+                "preference": 100,
+                "dynamic": {
+                  "constraints": {
+                    "affinity": {
+                      "rule": [
+                        {
+                          "action": "exclude-any",
+                          "color": [
+                            "RED"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "pce": {},
+                  "metric-type": "igp"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
