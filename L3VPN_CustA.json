@@ -24,10 +24,7 @@
                             ],
                             "route-target-type": "both"
                           }
-                        ],
-                        "vpn-policies": {
-                          "export-policy": "POLICY1"
-                        }
+                        ]
                       }
                     }
                   ],
