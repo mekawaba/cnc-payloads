@@ -13,19 +13,7 @@
                   "vpn-network-access": [
                     {
                       "id": "0",
-                      "interface-id": "FourHundredGigE0/0/0/2",
-                      "connection": {
-                        "encapsulation": {
-                          "encap-type": "ietf-vpn-common:dot1q",
-                          "dot1q": {
-                            "cvlan-id": 100,
-                            "tag-operations": {
-                              "pop": "1",
-                              "cisco-l2vpn-ntw:mode": "symmetric"
-                            }
-                          }
-                        }
-                      }
+                      "interface-id": "FourHundredGigE0/0/0/2"
                     }
                   ]
                 },
@@ -41,19 +29,7 @@
                   "vpn-network-access": [
                     {
                       "id": "0",
-                      "interface-id": "FourHundredGigE0/0/0/2",
-                      "connection": {
-                        "encapsulation": {
-                          "encap-type": "ietf-vpn-common:dot1q",
-                          "dot1q": {
-                            "cvlan-id": 100,
-                            "tag-operations": {
-                              "pop": "1",
-                              "cisco-l2vpn-ntw:mode": "symmetric"
-                            }
-                          }
-                        }
-                      }
+                      "interface-id": "FourHundredGigE0/0/0/2"
                     }
                   ]
                 },
