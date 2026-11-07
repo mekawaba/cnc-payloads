@@ -122,7 +122,7 @@
           "cisco-l2vpn-ntw:service-assurance": {
             "monitoring-state": "enable",
             "profile-name": "Gold_L2VPN_ConfigProfile system",
-            "rule-name": "Rule-L2VPN-NM system"
+            "rule-name": "Rule-L2VPN-MP system"
           }
         }
       ]
