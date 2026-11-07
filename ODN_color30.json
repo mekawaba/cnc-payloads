@@ -13,13 +13,13 @@
           },
           "head-end": [
             {
-              "name": "PE1"
+              "name": "C8711-1-PE"
             },
             {
-              "name": "PE2"
+              "name": "C8711-2-PE"
             },
             {
-              "name": "PE3"
+              "name": "C8711-3-PE"
             }
           ],
           "color": 30,
