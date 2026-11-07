@@ -118,7 +118,12 @@
           "cisco-l2vpn-ntw:auto-evi-id": [
             null
           ],
-          "cisco-l2vpn-ntw:bridge-group": "BRIDGE"
+          "cisco-l2vpn-ntw:bridge-group": "BRIDGE",
+          "cisco-l2vpn-ntw:service-assurance": {
+            "monitoring-state": "enable",
+            "profile-name": "Gold_L2VPN_ConfigProfile system",
+            "rule-name": "Rule-L2VPN-NM system"
+          }
         }
       ]
     }
