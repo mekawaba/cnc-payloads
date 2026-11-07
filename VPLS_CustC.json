@@ -35,7 +35,7 @@
                   "te-mapping": {
                     "odn": {
                       "route-policy": [
-                        "POLICY1"
+                        "POLICY3"
                       ]
                     }
                   }
@@ -71,7 +71,7 @@
                   "te-mapping": {
                     "odn": {
                       "route-policy": [
-                        "POLICY1"
+                        "POLICY3"
                       ]
                     }
                   }
@@ -107,7 +107,7 @@
                   "te-mapping": {
                     "odn": {
                       "route-policy": [
-                        "POLICY1"
+                        "POLICY3"
                       ]
                     }
                   }
